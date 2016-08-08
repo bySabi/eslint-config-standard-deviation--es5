@@ -52,7 +52,7 @@ Add `extends` to project `.eslintrc`
 Add scripts to `package.json`
 ```json
 "scripts": {
-  "lint": "eslint . --ext .js,.jsx",
+  "lint": "eslint . --ext .js",
   "testonly": "echo \"Error: no test specified\" && exit 1",
   "test": "npm run lint && npm run testonly"
 }
