@@ -23,27 +23,26 @@ Based on `standard` shared eslint-config
 ### npm
 
 ```bash
-npm install eslint-config-standard-deviation--es5 --save-dev
+npm install eslint-config-standard-deviation--es5 eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise --save-dev
 ```
 
-### dependencies installation
-
+## Easy add to project
 ```bash
-npm install eslint eslint-config-standard eslint-plugin-standard --save-dev
+npm install eslint eslint-modules-standard-deviation--es5 --save-dev
 ```
 
 ## Usage
 Add `extends` to project `.eslintrc`
 ```json
 {
-  "extends": ["eslint-config-standard-deviation--es5"]
+  "extends": ["standard-deviation--es5"]
 }
 ```
 
 ### [optional] enable/disable [eslint rules](http://eslint.org/docs/rules/)
 ```json
 {
-  "extends": ["eslint-config-standard-deviation--es5"],
+  "extends": ["standard-deviation--es5"],
   "rules": {
     "space-before-function-paren": ["2", "always"]
   }

@@ -25,7 +25,8 @@
   "devDependencies": {
     "eslint": "3.x.x",
     "eslint-config-standard": "*",
-    "eslint-plugin-standard": "*"
+    "eslint-plugin-standard": "*",
+    "eslint-plugin-promise": "*"
   },
   "author": "bySabi Files",
   "license": "ISC"
