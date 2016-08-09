@@ -1,6 +1,6 @@
-# eslint-config-standard-deviation--es5
-
 [![npm version](https://badge.fury.io/js/eslint-config-standard-deviation--es5.svg)](https://badge.fury.io/js/eslint-config-standard-deviation--es5)
+
+# eslint-config-standard-deviation--es5
 
 > ESLint [shared configuration](http://eslint.org/docs/developer-guide/shareable-configs) for javascript `ES5` projects
 
