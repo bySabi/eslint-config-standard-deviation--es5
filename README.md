@@ -3,9 +3,9 @@
 [![npm version](https://badge.fury.io/js/eslint-config-standard-deviation--es5.svg)](https://badge.fury.io/js/eslint-config-standard-deviation--es5)
 
 
-> ESLint [shared configuration](http://eslint.org/docs/developer-guide/shareable-configs) for javascript `ES5` projects
+> ESLint [shared configuration](http://eslint.org/docs/developer-guide/shareable-configs) for javascript `ES5` projects based on `standard` shared eslint-config
 
-Based on `standard` shared eslint-config
+
 * [eslint-config-standard][standard]
 * [eslint-config-standard-react](https://github.com/feross/eslint-config-standard-react)
 
