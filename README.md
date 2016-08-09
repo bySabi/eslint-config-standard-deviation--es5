@@ -1,8 +1,8 @@
-# a [standard][standard] derived shared eslint-config
+# eslint-config-standard-deviation--es5
 
 [![npm version](https://badge.fury.io/js/eslint-config-standard-deviation--es5.svg)](https://badge.fury.io/js/eslint-config-standard-deviation--es5)
 
-> Another linter configuration for javascript `ES5` projects.
+> ESLint [shared configuration](http://eslint.org/docs/developer-guide/shareable-configs) for javascript `ES5` projects
 
 Based on `standard` shared eslint-config
 * [eslint-config-standard][standard]
