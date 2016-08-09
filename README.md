@@ -64,7 +64,8 @@ Add scripts to `package.json`
 
 
 ## Projects using `eslint-config-standard-deviation--es5`
-
+* [karma-tap](https://github.com/bySabi/karma-tap)
+* [tap-lochnest](https://github.com/bySabi/tap-lochnest)
 
 ## Contributing
 
