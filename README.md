@@ -68,6 +68,7 @@ Add `extends` to project `.eslintrc`
 * [karma-tap](https://github.com/bySabi/karma-tap)
 * [karma-tap-pretty-reporter](https://github.com/bySabi/karma-tap-pretty-reporter)
 * [tap-lochnest](https://github.com/bySabi/tap-lochnest)
+* [tapa](https://github.com/bySabi/tapa)
 
 ## Contributing
 
