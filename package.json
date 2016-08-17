@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-standard-deviation--es5",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a shared eslint-config for javascript ES5 projects",
   "main": "index.js",
   "scripts": {
@@ -22,11 +22,11 @@
     "standard",
     "ES5"
   ],
-  "devDependencies": {
-    "eslint": "3.x.x",
-    "eslint-config-standard": "*",
-    "eslint-plugin-standard": "*",
-    "eslint-plugin-promise": "*"
+  "peerDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0"
   },
   "author": "bySabi Files",
   "license": "ISC"
