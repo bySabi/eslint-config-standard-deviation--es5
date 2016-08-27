@@ -1,7 +1,8 @@
 # eslint-config-standard-deviation--es5
 
 [![npm version](https://badge.fury.io/js/eslint-config-standard-deviation--es5.svg)](https://badge.fury.io/js/eslint-config-standard-deviation--es5)
-
+[![npm downloads](https://img.shields.io/npm/dm/eslint-config-standard-deviation--es5.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-standard-deviation--es5)
+[![Known Vulnerabilities](https://snyk.io/test/github/bysabi/eslint-config-standard-deviation--es5/badge.svg)](https://snyk.io/test/github/bysabi/eslint-config-standard-deviation--es5)
 
 > ESLint [shared configuration](http://eslint.org/docs/developer-guide/shareable-configs) for javascript `ES5` projects based on `standard` shared eslint-config
 
