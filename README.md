@@ -26,7 +26,8 @@
 ### npm
 
 ```bash
-npm install eslint-config-standard-deviation--es5 eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise --save-dev
+npm install eslint eslint-config-standard-deviation--es5 --save-dev
+npm install eslint-config-standard eslint-plugin-standard eslint-plugin-promise --save-dev
 ```
 
 ### OR add easily to projects in `npm 3` and beyond environments
