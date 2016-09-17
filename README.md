@@ -10,6 +10,7 @@
 * [eslint-config-standard][standard]
 * [eslint-config-standard-react](https://github.com/feross/eslint-config-standard-react)
 
+
 ## What is different from `standard` eslint-config ?
 [standard][standard] shared eslint-config rules are almost fine but we do not like to force us to ...
 * not use semicolon `;`
@@ -28,7 +29,7 @@
 npm install eslint-config-standard-deviation--es5 eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise --save-dev
 ```
 
-## Easy add to project
+### OR add easily to projects in `npm 3` and beyond environments
 ```bash
 npm install eslint eslint-modules-standard-deviation--es5 --save-dev
 ```
@@ -38,6 +39,14 @@ Add `extends` to project `.eslintrc`
 ```json
 {
   "extends": ["standard-deviation--es5"]
+}
+```
+Add scripts to `package.json`
+```json
+"scripts": {
+  "lint": "eslint . --ext .js,.jsx",
+  "testonly": "echo \"Error: no test specified\" && exit 1",
+  "test": "npm run lint && npm run testonly"
 }
 ```
 
@@ -51,19 +60,9 @@ Add `extends` to project `.eslintrc`
 }
 ```
 
-### Add scripts to `package.json`
-```json
-"scripts": {
-  "lint": "eslint . --ext .js",
-  "testonly": "echo \"Error: no test specified\" && exit 1",
-  "test": "npm run lint && npm run testonly"
-}
-```
-
-## Javascript `ES5`, `ES2015`, `ES.next`, and `React` support
+## for Javascript `ES5`, `ES2015`, `ES.next`, and `React` support use
 * [eslint-config-standard-deviation](https://github.com/bySabi/eslint-config-standard-deviation)
 * [eslint-modules-standard-deviation](https://github.com/bySabi/eslint-modules-standard-deviation)
-
 
 ## Projects using `eslint-config-standard-deviation--es5`
 * [karma-tap](https://github.com/bySabi/karma-tap)
