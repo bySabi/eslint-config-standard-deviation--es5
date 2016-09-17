@@ -24,16 +24,20 @@
 ## Installation
 
 ### npm
-
 ```bash
-npm install eslint eslint-config-standard-deviation--es5 --save-dev
-npm install eslint-config-standard eslint-plugin-standard eslint-plugin-promise --save-dev
+npm install eslint-config-standard-deviation--es5 --save-dev
 ```
 
-### OR add easily to projects in `npm 3` and beyond environments
+#### WITH dependencies
+```bash
+npm install eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise --save-dev
+```
+
+#### OR add easily to projects using [eslint-modules-standard-deviation--es5](https://github.com/bySabi/eslint-modules-standard-deviation--es5)
 ```bash
 npm install eslint eslint-modules-standard-deviation--es5 --save-dev
 ```
+##### Works only in `npm 3` and beyond environments
 
 ## Usage
 Add `extends` to project `.eslintrc`

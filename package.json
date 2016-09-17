@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-standard-deviation--es5",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a shared eslint-config for javascript ES5 projects",
   "repository": {
     "type": "git",
@@ -24,9 +24,9 @@
   },
   "peerDependencies": {
     "eslint": "3.x.x",
-    "eslint-config-standard": "5.x.x",
-    "eslint-plugin-promise": "2.x.x",
-    "eslint-plugin-standard": "2.x.x"
+    "eslint-config-standard": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-standard": "*"
   },
   "author": "bySabi Files",
   "license": "ISC"
