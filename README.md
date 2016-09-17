@@ -61,7 +61,7 @@ Add scripts to `package.json`
 }
 ```
 
-## for Javascript `ES5`, `ES2015`, `ES.next`, and `React` support use
+## for Javascript `ES5`, `ES2015`, `ES.next`, and `React` support, use
 * [eslint-config-standard-deviation](https://github.com/bySabi/eslint-config-standard-deviation)
 * [eslint-modules-standard-deviation](https://github.com/bySabi/eslint-modules-standard-deviation)
 
