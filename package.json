@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-standard-deviation--es5",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a shared eslint-config for javascript ES5 projects",
   "repository": {
     "type": "git",
@@ -21,6 +21,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": "3.x.x",
+    "eslint-config-standard": "5.x.x",
+    "eslint-plugin-promise": "2.x.x",
+    "eslint-plugin-standard": "2.x.x"
   },
   "author": "bySabi Files",
   "license": "ISC"
