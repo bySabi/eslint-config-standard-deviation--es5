@@ -14,7 +14,7 @@ module.exports = {
     'standard'
   ],
   'rules': {
-    'semi': [0, 'never'],
-    'space-before-function-paren': [0, 'never']
+    'semi': ['off', 'never'],
+    'space-before-function-paren': ['off', 'never']
   }
 };
